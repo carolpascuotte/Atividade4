@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Projeto1</string>
+    <string name="peso">Informe o seu peso (kg)</string>
+    <string name="altura">Informe a sua altura (m)</string>
+    <string name="calcular">Calcular IMC</string>
+    <string name="resultado">Resultado Final</string>
+    <string name="resultado_final"></string>
+    <string name="excesso_magreza">IMC: menor 18,5 - Excesso de Magreza  </string>
+    <string name="peso_normal">IMC: entre 18 e 25 - Peso Normal </string>
+    <string name="excesso_peso">IMC: entre 25 e 30 - Excesso de Peso</string>
+    <string name="obesidade_grau1">IMC: entre 30 e 35 - Obesidade Grau 1</string>
+    <string name="obesidade_grau2">IMC: entre 35 e 40 - Obesidade Grau 2</string>
+    <string name="obesidade_grau3">IMC: maior 40 - Obesidade Grau 3</string>
+    <string name="nome_completo">Nome: Caroline</string>
+    <string name="ra_aluno">RA: 20629257</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

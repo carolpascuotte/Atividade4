@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	tools:context=".Projeto1Activity" >
+ 
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:layout_marginTop="10dp"
+	android:text="@string/peso" />
+ 
+<EditText
+	android:id="@+id/txtPeso"
+	android:layout_width="110dp"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:inputType="number" />
+ 
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:text="@string/altura" />
+ 
+<EditText
+	android:id="@+id/txtAltura"
+	android:layout_width="110dp"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:inputType="number" />
+
+<Button
+	android:id="@+id/btnCalcular"
+	android:layout_width="wrap_content"
+	android:layout_height="35dp"
+	android:layout_marginLeft="15dp"
+	android:layout_marginTop="10dp"
+	android:text="@string/calcular"
+	android:textSize="15sp" />
+
+ 
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:layout_marginTop="25dp"
+	android:text="@string/resultado" />
+
+<TextView
+	android:id="@+id/txtResultadoFinal"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:layout_marginTop="25dp"
+	android:text="@string/resultado_final" />
+  
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:layout_marginTop="25dp"
+	android:text="@string/excesso_magreza" />
+
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:layout_marginTop="25dp"
+	android:text="@string/peso_normal" />
+
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:layout_marginTop="25dp"
+	android:text="@string/excesso_peso" />
+
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:layout_marginTop="25dp"
+	android:text="@string/obesidade_grau1" />
+
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:layout_marginTop="25dp"
+	android:text="@string/obesidade_grau2" />
+
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:layout_marginTop="25dp"
+	android:text="@string/obesidade_grau3" />
+
+
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:layout_marginTop="25dp"
+	android:text="@string/nome_completo" />
+
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+	android:layout_marginTop="25dp"
+	android:text="@string/ra_aluno" />
+ 
+</LinearLayout>
